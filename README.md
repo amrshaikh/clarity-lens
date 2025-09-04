@@ -22,7 +22,7 @@ ClarityLens acts as a signal through the noise. By pasting any article URL, user
 
 ## Live Demo
 
-**[Try ClarityLens Live!](insert_link)**
+**[Try ClarityLens Live!](https://clarity-lens.vercel.app/)**
 
 ## Tech Stack
 
