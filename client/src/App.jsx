@@ -67,7 +67,7 @@ function App() {
       setIsSpeaking(false);
     }
     try {
-      const response = await fetch('http://localhost:3001/api/parse', {
+      const response = await fetch('https://clarity-lens-server.onrender.com/api/parse', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ articleUrl: url }),
