@@ -26,7 +26,7 @@ const InfoCards = () => (
 
 function App() {
   const [url, setUrl] = useState('');
-  const [summary, setSummary] = useState(null); // Changed from 'article' to 'summary' for clarity
+  const [summary, setSummary] = useState(null);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [theme, setTheme] = useState('dark');
@@ -36,7 +36,6 @@ function App() {
     document.documentElement.className = theme;
   }, [theme]);
 
-  // Updated handleSpeak to work with the new summary structure
   const handleSpeak = () => {
     if (isSpeaking) {
       window.speechSynthesis.cancel();
@@ -140,7 +139,7 @@ function App() {
             </form>
           </div>
 
-          <div className="w-full max-w-5xl mx-auto flex-grow flex flex-col justify-center">
+          <div className="w-full max-w-5xl mx-auto flex-grow flex flex-col justify-center mt-8">
             <div className="my-auto">
               {!summary && !loading && !error && <InfoCards />}
             </div>
@@ -164,7 +163,7 @@ function App() {
           </div>
 
           <footer className="w-full text-center py-6 text-slate-500 dark:text-slate-600 mt-auto">
-            <a href="https://github.com/amrshaikh/clarity-lens" target="_blank" rel="noopener noreferrer" className="no-underline hover:text-sky-500">
+            <a href="https://github.com/YOUR-USERNAME/clarity-lens" target="_blank" rel="noopener noreferrer" className="no-underline hover:text-sky-500">
               Created by Amr
             </a>.
           </footer>
