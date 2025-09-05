@@ -163,7 +163,7 @@ function App() {
           </div>
 
           <footer className="w-full text-center py-6 text-slate-500 dark:text-slate-600 mt-auto">
-            <a href="https://github.com/YOUR-USERNAME/clarity-lens" target="_blank" rel="noopener noreferrer" className="no-underline hover:text-sky-500">
+            <a href="https://github.com/amrshaikh/clarity-lens" target="_blank" rel="noopener noreferrer" className="no-underline hover:text-sky-500">
               Created by Amr
             </a>.
           </footer>
